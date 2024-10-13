@@ -1,5 +1,5 @@
 from openai import OpenAI
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=${{ secrets.PSYCH_AR }})
 import logging
 import streamlit as st
 import pandas as pd
